@@ -27,3 +27,19 @@
 - Replace strings that match a regular expression patterns with a specified replacement string
 - Outputdatypes: String
 
+--
+
+## About Replace 
+- Replace is input string that replaces strings that matches a regular expression pattern with a specific replacment string. 
+
+## Replace Properties
+- Pattern- is the regular expression pattern being matched.
+- Input- is the string that is being replaced.
+- Regex Option- is a list of specified options for matching.
+- Replacement- just replaces the string.
+
+
+
+ 
+
+
