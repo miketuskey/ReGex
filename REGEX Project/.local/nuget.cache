@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rRhCN9Vxv6IhLMonoiK5pGQtt3Cf0YsmVPSDNu5J5ZvRQgG70E3zoWAIbDwDJoX0Ge3nvEfUBU3bkwgOlgWM9Q==",
+  "dgSpecHash": "HLnSY9fsAU6V+28NhIBwYpnbN3e9WyksFT2bZyW4G2WUmRcQfUWTgGw0ZWs4PB/m213YN9yaUEt9s3CMOpFBfw==",
   "success": true,
-  "projectFilePath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\BlankProcess\\.local\\",
+  "projectFilePath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\REGEX Project\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\miket\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\miket\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",

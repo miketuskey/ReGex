@@ -8422,9 +8422,9 @@
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\BlankProcess\\.local",
+      "projectPath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\REGEX Project\\.local",
       "packagesPath": "C:\\Users\\miket\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\BlankProcess\\.local"
+      "outputPath": "C:\\Revature\\220425-UiPath\\REGEX\\ReGex\\REGEX Project\\.local"
     },
     "frameworks": {
       "net461": {
