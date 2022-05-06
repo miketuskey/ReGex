@@ -1,0 +1,59 @@
+				
+		
+	1	White Tin		
+	2	Tin		
+	3	Tin - Medium		
+	4	Tin - Dark		
+	5	Driftwood - Light		
+	6	Driftwood - Medium Light		
+	7	Driftwood		
+	8	Driftwood - Dark		
+	9	Cocoa - Very Dark		
+	10	Tender Green - Very Light		
+	11	Tender Green - Light		
+	12	Tender Green		
+	13	Nile Green - Medium Light		
+	14	Apple Green - Pale		
+	15	Apple Green		
+	16	Chartreuse - Light		
+	17	Yellow Plum - Light		
+	18	Yellow Plum		
+	19	Autumn Gold - Medium Light		
+	20	Shrimp		
+	21	Alizarian - Light		
+	22	Alizarian		
+	23	Apple Blossom		
+	24	White Lavender		
+	25	Lavender - Ultra Light		
+	26	Lavender - Pale		
+	27	White Violet		
+	28	Eggplant - Medium Light		
+	29	Eggplant		
+	30	Blueberry - Medium Light		
+	31	Blueberry		
+	32	Blueberry - Dark		
+	33	Fuchsia		
+	34	Fuchsia - Dark		
+	35	Fuchsia - Very Dark		
+	150	Red - Bright		
+	151	Pink		
+	152	Tawny - Dark		
+	153	Lilac		
+	154	Red - Very Dark		
+	155	Forget-me-not Blue		
+	156	Blue - Medium		
+	157	Blue - Light		
+	158	Blue - Dark		
+	159	Petrol Blue - Light		
+	160	Petrol Blue - Medium		
+	161	Petrol Blue - Dark		
+	162	Baby Blue - Light		
+	163	Green		
+	164	Green - Light		
+	165	Green - Bright		
+	166	Lime Green		
+	167	Khaki Brown		
+	168	Silver Gray		
+	169	Pewter Gray		
+	208	Lavender - Very Dark		
+	209	Lavender - Dark		
