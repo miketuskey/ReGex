@@ -34,8 +34,10 @@
         - (|) allows you to match multiple characters such as (yes|no)
 # IsMatch 
 - Indicates whether the specified regualr expression finds a match in the specific input string.
+    - Reference link: https://docs.uipath.com/activities/docs/is-match
 # Replace
 - Replace strings that match a regular expression patterns with a specified replacement string
 - Output datypes: String
 ![img](<https://raw.githubusercontent.com/miketuskey/ReGex/afcc8eeb4c2fb39f7bc58e34480e376849dce080/SylvesterReplace1.jpg>)
 ![img](<https://raw.githubusercontent.com/miketuskey/ReGex/main/SylvesterOutput.jpg>)
+
