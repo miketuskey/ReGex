@@ -4,7 +4,7 @@
 
 - What is it 
 
-    - Regula Expression (REGEX) is as specific search pattern that can be used to easily match locate and manage text. 
+    - Regular Expression (REGEX) is as specific search pattern that can be used to easily match locate and manage text. 
 
 - Uses of RegEx
 
