@@ -18,9 +18,9 @@
         the process of taking a string and changing it via various methods to contain only the data needed
 
 
-- Scenarions of retrieving pieces of text
+- Scenarios of retrieving pieces of text
     - Extracting phone numbers that start with certain digit
-    - Collectining all street names from a bulk text, even if they dont follow a specific pattern 
+    - Collecting all street names from a bulk text, even if they dont follow a specific pattern 
     - RegEx has a predefined expression to locate all the URLs in a strings
 
 ---
