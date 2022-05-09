@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="IsMatch" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="745,586" sap2010:WorkflowViewState.IdRef="IsMatch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="IsMatch" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="745,663" sap2010:WorkflowViewState.IdRef="IsMatch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="48">
       <x:String>System.Activities</x:String>
@@ -52,18 +52,14 @@
   <Sequence DisplayName="IsMatch" sap:VirtualizedContainerService.HintSize="755,521" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="output" />
-      <Variable x:TypeArguments="x:String" Name="thread">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">dark</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="dark" Name="thread" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadTextFile Content="{x:Null}" DisplayName="Read Text File" FileName="C:\Users\Esthe\OneDrive\Documents\Afewthreadnums.txt" sap:VirtualizedContainerService.HintSize="713,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+    <ui:ReadTextFile Content="[thread]" DisplayName="Read Text File" FileName="C:\Users\Esthe\OneDrive\Documents\Afewthreadnums.txt" sap:VirtualizedContainerService.HintSize="713,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
     <ui:IsMatch BuilderPattern=".*(dark)" DisplayName="IsMatch" sap:VirtualizedContainerService.HintSize="713,59" sap2010:WorkflowViewState.IdRef="IsMatch_2" Input="[thread]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;.*(dark)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern=".*(dark)" RegexOption="IgnoreCase" Result="[output]" />
     <If Condition="[output]" sap:VirtualizedContainerService.HintSize="713,210" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>

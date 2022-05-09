@@ -3506,9 +3506,9 @@
     "restore": {
       "projectUniqueName": "RegEXgroupproj",
       "projectName": "RegEXgroupproj",
-      "projectPath": "C:\\Users\\Esthe\\OneDrive\\Documents\\UiPath\\RegEXgroupproj\\.local",
+      "projectPath": "C:\\Revature\\220425-UiPath\\RegEx-Project\\ReGex\\RegEXgroupproj\\.local",
       "packagesPath": "C:\\Users\\Esthe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Esthe\\OneDrive\\Documents\\UiPath\\RegEXgroupproj\\.local"
+      "outputPath": "C:\\Revature\\220425-UiPath\\RegEx-Project\\ReGex\\RegEXgroupproj\\.local"
     },
     "frameworks": {
       "net461": {
