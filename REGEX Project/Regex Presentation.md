@@ -47,7 +47,7 @@
 
 # Is Match 
 - Indicates whether the specified regualr expression finds a match in the specific input string.
-
+- Is Match is an excellent tool for creating Boolean fuctions and testing string statements. 
 ---
 
 # Replace
@@ -59,10 +59,13 @@
     - Pattern- is the regular expression pattern being matched.
     - Input- is the string that is being replaced.
     - Regex Option- is a list of specified options for matching.
-    - Replacement- just replaces the string.
-
+    - Replacement- replaces the string.
 
 ----
 
+# Links 
 
-
+-  https://docs.uipath.com/activities/docs/is-match
+-  https://www.tutorialspoint.com/vb.net/vb.net_regular_expressions.htm
+-  https://www.youtube.com/watch?v=1UD02PCgdGg
+-  https://excelcult.com/how-to-use-regular-expressions-in-uipath/
