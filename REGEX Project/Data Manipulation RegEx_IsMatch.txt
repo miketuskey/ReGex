@@ -1,0 +1,27 @@
+Data Manipulation Using RegEx Is Match activity.
+
+This workflow explains how to verify the validity of an email address by using the Is Match activity with a custom Regular Expression.
+
+#This is how the RegEx Is Match automation process was built:
+
+1. UiPath Studio was opened and a new Process was created.
+2. A Sequence container renamed as RegEx IsMatch was draged in the Workflow Designer.
+  .The following variables below were created:
+
+   Variable Name	Variable Type	  Scope           Default Value
+   
+   varEmail	        String	          RegEx IsMatch   -
+   varEmailResult       Boolean	          RegEx IsMatch   -
+
+3. An Is Match activity was dragged inside the Sequence container.
+  .In the Properties panel, add the variable varEmail in the Input field.
+  .Add the variable varEmailResult in the Result field.
+  .Click the Configure Regular Expression button and customize your RegEx. For this example add the expression "((?>[a-zA-Z\d!#$%&'*+\-\/=?^_`{|}~]+\x20*|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*"\x20*)*(?<angle><))?((?!\.)(?>\.?[a-zA-Z\d!#$%&'*+\-\/=?^_`{|}~]+)+|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*")@(((?!-)[a-zA-Z\d\-]+(?<!-)\.)+[a-zA-Z]{2,}|\[(((?(?<!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)>)" in the Value field.
+
+4. Drag an If activity below the Is Match activity.
+  .Add the variable varEmailResult in the Condition field.
+5. Drag a Message Box activity inside the Then field of the If activity.
+  .Add the expression varEmailResult.ToString in the Text field.
+6. Drag a Message Box activity inside the Else field of the If activity.
+  .Add the expression "my emails" in the Text field.
+7. Run the process. The email address added as input is verified and the result is    displayed in a message box.

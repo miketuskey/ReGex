@@ -1,5 +1,6 @@
 ### REGEX  
 
+---
 
 - What is it 
 
@@ -26,12 +27,13 @@
 
 ## Methods of Regex in UiPath
 
+---
 
 ## Matches
 - Searches an input string for all occurrences and return all the sucessful matches 
 - Out datatype: 
     - System.Collections.Generic.IEnumerable<System.TextRegularExpressions.Match> 
-- Matching can be as used to look up words, emails, url, digtis and other specific sets of data that you are looking for in a file. 
+- Matching can be as used to look up words, emails, url, digits, and other specific sets of data that you are looking for in a file. 
 
 - Types of programs used in the Matches activity
 
